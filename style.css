@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+}
+
+.bar {
+    width: 100%;
+    height: 37.6px;
+    background-color: teal;
+    position: fixed;
+}
+
+.buttons {
+    float: left;
+    color: aquamarine;
+    background-color: teal;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.buttons:hover {
+    color: teal;
+    background-color: aquamarine;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.header {
+    width: 100%;
+    height: 55vmax;
+    background-image: url(Web\ Banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* .contents {
+    background-image: linear-gradient(to bottom, rgb(0, 170, 170), cyan);
+} */
+
+.lore {
+    padding: 3em calc(100%-80%);
+    width: 100%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to top, white,darkcyan);
+}
+
+.tieude {
+    padding-top: 3em;
+    color: gold;
+}
+
+.tieusu {
+    text-align: justify;
+    padding: 2em 6em 6em;
+    font-size: 1.2em;
+    color: rgb(150, 120, 10);
+}
+
+.tieusu::first-letter {
+    content: "";
+    font-size: 2em;
+}
+
+.contacts {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #666;
+}
+
+.lienlac {
+    padding: 2rem;
+    text-align: justify;
+}
+
+.forms {
+    margin-right: 7rem;
+    float: right;
+    padding-bottom: 5rem;
+}
+
+.thongtin {
+    margin-left: 7rem;
+    margin-top: 4rem;
+    float: left;
+}
+
+.submitbutton {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 31.65rem;
+    border: 2px solid #666;
+    background-color: #666;
+    color: white;
+}
+
+.submitbutton:hover {
+    
+    color: aquamarine;
+    border: 2px solid rgb(0, 100, 100);
+    background-color: teal;
+}
+
+.skins {
+    background-image: linear-gradient(white,teal);
+}
+
+.skins-child {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* FADING TEMPLATE ( NOT MY CODE :) ) */
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.bottombar {
+    text-align: center;
+    padding-top:2rem;
+    padding-left:1.5rem;
+    padding-bottom:1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aquamarine;
+    background-color: teal;
+}
+
+.ME {
+    text-decoration: none;
+    color: white;
+}
+
+.ME:hover {
+    color: lightblue;
+}

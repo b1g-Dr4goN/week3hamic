@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Dragon | [大龍]</title>
+    <link rel="icon" href="dragon.png" type="icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e97d843f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bar">
+        <img src="bigdragon.png" alt="" class="buttons" style="height: 21.6px; margin-left: 2em">
+        <a href="" class="buttons">HOME</a>
+        <a href="" class="buttons">LORE</a>
+        <a href="" class="buttons">CONTACT</a>
+        <a href="" class="buttons">WEBSITE</a>
+        <div class="buttons">SKINS</div>
+        <a href="javascript:void(0)" class="buttons fas fa-search" style="float: right; padding: 10.6px"></a>
+    </div>
+    <div class="header"></div>
+    <div class="contents">
+        <div class="lore">
+            <h1 class="tieude">AURELION SOL</h1>
+            <h3 style="color: yellow; font-style: italic">The Star Forger</h3>
+            <div class="tieusu">Aurelion Sol once graced the vast emptiness of the celestial realm with wonders of his own devising, but was tricked by the Aspects of Targon into revealing the secrets of a sun that he himself created. His awesome power was channeled into immortal god-warriors to protect the apparently insignificant world of Runeterra-now, desiring a return to his mastery of the cosmos, Aurelion Sol will drag the very stars from the sky, if he must, in order to regain his freedom.</div>
+        </div>
+        <div class="contacts">
+            <h1>CONTACT ME</h1>
+            <h4 style="Color: #bbb; font-style: italic">Keep in touch with Big Dragon</h4>
+            <div class="lienlac">
+                <div class="thongtin">
+                <i class="fas fa-map"></i> Hanoi University of Science (HUS-VNU) - 334 Nguyen Trai Rd. - Thanh Xuan Dist. - Hanoi <br>
+                <i class="fas fa-phone"></i> 0362985338 <br>
+                <i class="fas fa-envelope"></i> kuanmingm56@gmail.com <br>
+                </div>
+                <form class="forms" action="#">
+                    <input type="text" placeholder="Name" required style="width: 15rem;height: 2rem;">
+                    <input type="email" placeholder="Email" required style="width: 15rem;height: 2rem; margin-left: 0.5rem"> <br>
+                    <input type="text" placeholder="Message" required style="width: 31.2rem;height: 5rem; margin-top: 1rem"> <br>
+                    <button class="submitbutton" type="submit">SEND</button> <br>
+                </form>
+            </div>
+        </div>
+        <div class="skins">
+            <div class="skins-child">
+                <h1 class="tieude">THE DRAGON'S SKINS</h1>
+                <h3 style="color: rgb(150, 150, 25); font-style: italic">Things that doesn't make you play better but it absolutely can make you more self-confident</h3>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="Aurelion_Sol_Mecha.jpg" style="width:100%">
+                  <div class="text">Mecha Aurelion Sol</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="Storm_Dragon_Aurelion_Sol.jpg" style="width:100%">
+                  <div class="text">Storm Dragon Aurelion Sol</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="Inkshadow_Aurelion_Sol.jpg" style="width:100%">
+                  <div class="text">Inkshadow Aurelion Sol</div>
+                </div>
+
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div>   
+        </div>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+        <div class="bottombar">POWERED BY <a class="ME" href="https://www.facebook.com/ku4nm1N.b1gDr4goN/">BIG DRAGON</a></div>      
+    </div>
+</body>
+</html>
