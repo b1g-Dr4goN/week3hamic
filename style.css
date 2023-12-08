@@ -9,6 +9,11 @@
     position: fixed;
 }
 
+.anhbia {
+    height: 21.6px; 
+    margin-left: 2em;
+}
+
 .buttons {
     float: left;
     color: aquamarine;
@@ -33,7 +38,7 @@
 
 .header {
     width: 100%;
-    height: 55vmax;
+    height: 55.5vmax;
     background-image: url(Web\ Banner.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -80,13 +85,30 @@
 }
 
 .forms {
-    margin-right: 7rem;
+    margin-right: 10rem;
     float: right;
     padding-bottom: 5rem;
 }
 
+.hoten {
+    width: 15rem;
+    height: 2rem;
+}
+
+.mail {
+    width: 15rem;
+    height: 2rem; 
+    margin-left: 0.5rem;
+}
+
+.thongdiep {
+    width: 31.2rem;
+    height: 5rem; 
+    margin-top: 1rem;
+}
+
 .thongtin {
-    margin-left: 7rem;
+    margin-left: 10rem;
     margin-top: 4rem;
     float: left;
 }
@@ -193,4 +215,168 @@ img {vertical-align: middle;}
 
 .ME:hover {
     color: lightblue;
+}
+
+@media screen and (max-width: 1220px) {
+    .forms {
+        margin-left: 0;
+        margin-right: 5%;
+        float: right;
+        padding-bottom: 5rem;
+    }
+    
+    .thongtin {
+        margin-left: 5%;
+        margin-top: 4rem;
+        float: left;
+    }
+    .lienlac {
+        padding: 2rem;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .forms {
+        margin-left: 20%;
+        margin-right: 5%;
+        float: left;
+        padding-bottom: 5rem;
+    }
+    
+    .thongtin {
+        margin-left: 35%;
+        margin-top: 4rem;
+        margin-bottom: 1em;
+        float: left;
+    }
+    .lienlac {
+        padding: 2rem;
+        text-align: justify;
+    }
+
+    .skins {
+        padding-top: 10em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .forms {
+        margin-left: 12%;
+        margin-right: 5%;
+        float: left;
+        padding-bottom: 5rem;
+    }
+    
+    .thongtin {
+        margin-left: 22%;
+        margin-top: 4rem;
+        float: left;
+    }
+    .lienlac {
+        padding: 2rem;
+        text-align: justify;
+    }
+
+    .skins {
+        padding-top: 10em;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .bar {
+        width: 100%;
+        position: relative;
+    }
+
+    .fa-search {
+        display: none!important;
+    }
+    
+    .buttons {
+        display:none;
+    }
+
+    .anhbia {
+        display:block!important;
+    }
+
+    .tieusu {
+        padding: 2em;
+        font-size: 0.8em;
+    }
+
+    .header {
+        width: 100%;
+        height: 34vmax;
+    }
+
+    .contacts {
+        margin-top: 5rem;
+        margin-bottom: 0;
+    }
+
+    .lienlac {
+        padding: 0 32px!important;
+    }
+
+    .thongtin {
+        margin-top: 32px!important;
+    }
+
+    .tieude {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 0.75rem!important;
+        padding: 0 2em;
+    }
+
+    .forms {
+        margin-left: 1rem;
+        float: left;
+        padding-bottom: 5rem;
+    }
+
+    .hoten {
+        margin-top: 2rem;
+        width: 18.6rem;
+        height: 2rem;
+    }
+    
+    .mail {
+        width: 18.6rem;
+        height: 2rem; 
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+        margin-left: 0;
+    }
+    
+    .thongdiep {
+        width: 18.6rem;
+        height: 5rem; 
+        margin-top: 1rem;
+    }
+
+    .submitbutton {
+        margin-top: 1rem;
+        padding: 0.5rem;
+        width: 19.1rem;
+        border: 2px solid #666;
+        background-color: #666;
+        color: white;
+    }
+
+    .thongtin {
+        margin-left: 1.5rem;
+        margin-top: 4rem;
+        float: left;
+    }
+
+    .lienlac {
+        padding: 2rem;
+        text-align: justify;
+    }
 }
